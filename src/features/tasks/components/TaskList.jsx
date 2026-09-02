@@ -34,4 +34,4 @@ function TaskList({ tasks }) {
   );
 }
 
-export default TaskList;
+export default React.memo(TaskList);
